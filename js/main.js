@@ -8,4 +8,15 @@ $(function () {
   $(".header__btn-menu").on("click", function(){
     $(".menu ul").slideToggle();
   })
+  $("#form").on("submit", function(){
+    $.ajax({
+      url: '/handler.php',
+      method: 'post',
+      dataType: 'html',
+      data: $(this).serialize(),
+      success: function(data){
+        $('#message').html(data);
+      }
+    });
+  });
 });
