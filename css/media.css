@@ -1,0 +1,138 @@
+@media (max-width: 1125px) {
+  .photo__wraper {
+    flex-wrap: wrap;
+  }
+  .photo__wraper-first {
+    flex-flow: column wrap;
+    padding-bottom: 30px;
+  }
+  .contacts__block {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .input__name,
+  .input__surname {
+    min-width: 220px;
+  }
+  .form__textarea {
+    width: 470px;
+  }
+}
+@media (max-width: 945px) {
+  .heder__top {
+    justify-content: flex-start;
+  }
+  .logo__text {
+    display: none;
+  }
+  .logo__img {
+    position: relative;
+  }
+  .heder__top {
+    flex-flow: column;
+  }
+}
+@media (max-width: 830px) {
+  .heder__top {
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  .header__btn-menu {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .header {
+    position: relative;
+  }
+  .menu ul {
+    display: none;
+    margin-bottom: 20px;
+    z-index: 50;
+  }
+  .menu ul li:not(:last-child) {
+    padding-left: 0;
+  }
+  .menu ul li:last-child {
+    padding-left: 0px;
+  }
+  .menu {
+    padding-left: 0;
+  }
+  .menu li {
+    text-align: center;
+  }
+  .slider__item {
+    padding-top: 70px;
+  }
+}
+@media (max-width: 730px) {
+  .faq__input:checked ~ .faq__text {
+    width: 100%;
+  }
+}
+@media (max-width: 650px) {
+  .about__flex__wrap {
+    display: block;
+  }
+  .about__items {
+    justify-content: center;
+  }
+}
+@media (max-width: 570px) {
+  .photo__wraper img {
+    width: 80%;
+    height: 80%;
+  }
+  .photo__wraper-second {
+    flex-wrap: wrap;
+    justify-content: start;
+  }
+  .photo__block-img2 {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 530px) {
+  .services__text {
+    font-size: 28px;
+  }
+}
+@media (max-width: 475px) {
+  .contacts__container {
+    flex-wrap: wrap;
+  }
+  .contacts__email {
+    padding-left: 25px;
+  }
+  .form__contacts-box {
+    flex-direction: column;
+  }
+  .contacts__block {
+    justify-content: flex-start;
+  }
+  .form__textarea {
+    width: 225px;
+  }
+}
+@media (max-width: 414px) {
+  .slider__title {
+    font-size: 32px;
+  }
+
+  .slider__btn-slick {
+    display: none !important;
+  }
+  .photo__title {
+    font-size: 24px;
+  }
+}
+@media (max-width: 320px) {
+  .slider__title {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 830px) {
+  .menu ul {
+    display: flex !important;
+  }
+}
